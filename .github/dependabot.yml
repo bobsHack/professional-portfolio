@@ -7,36 +7,13 @@ updates:
       interval: "weekly"
       day: "monday"
       time: "09:00"
-    open-pull-requests-limit: 10
+    open-pull-requests-limit: 5
     labels:
       - "dependencies"
       - "security"
     commit-message:
       prefix: "chore"
       include: "scope"
-    reviewers:
-      - "susanavenda"
-    assignees:
-      - "susanavenda"
-
-  # Enable version updates for Maven
-  - package-ecosystem: "maven"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "09:00"
-    open-pull-requests-limit: 10
-    labels:
-      - "dependencies"
-      - "security"
-    commit-message:
-      prefix: "chore"
-      include: "scope"
-    reviewers:
-      - "susanavenda"
-    assignees:
-      - "susanavenda"
 
   # Enable version updates for GitHub Actions
   - package-ecosystem: "github-actions"
@@ -45,40 +22,10 @@ updates:
       interval: "weekly"
       day: "monday"
       time: "09:00"
-    open-pull-requests-limit: 10
+    open-pull-requests-limit: 5
     labels:
       - "dependencies"
       - "ci/cd"
-    commit-message:
-      prefix: "chore"
-      include: "scope"
-
-  # Enable version updates for Docker
-  - package-ecosystem: "docker"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "09:00"
-    open-pull-requests-limit: 10
-    labels:
-      - "dependencies"
-      - "docker"
-    commit-message:
-      prefix: "chore"
-      include: "scope"
-
-  # Enable version updates for Terraform
-  - package-ecosystem: "terraform"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "09:00"
-    open-pull-requests-limit: 10
-    labels:
-      - "dependencies"
-      - "terraform"
     commit-message:
       prefix: "chore"
       include: "scope"
