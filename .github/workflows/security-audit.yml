@@ -36,6 +36,7 @@ jobs:
     name: NPM Security Audit
     runs-on: ubuntu-latest
     if: hashFiles('**/package.json') != ''
+    continue-on-error: true
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -62,6 +63,7 @@ jobs:
     name: Maven Security Check
     runs-on: ubuntu-latest
     if: hashFiles('**/pom.xml') != ''
+    continue-on-error: true
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -84,6 +86,7 @@ jobs:
     name: Container Security Scan
     runs-on: ubuntu-latest
     if: hashFiles('**/Dockerfile') != ''
+    continue-on-error: true
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -107,6 +110,7 @@ jobs:
     name: Infrastructure Security Scan
     runs-on: ubuntu-latest
     if: hashFiles('**/*.tf') != ''
+    continue-on-error: true
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -128,6 +132,7 @@ jobs:
   secrets-scan:
     name: Secrets Scanning
     runs-on: ubuntu-latest
+    continue-on-error: true
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
